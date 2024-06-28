@@ -12,3 +12,6 @@ thiserror = "1.0.61"
 tokio = { version = "1.38.0", features = ["full"] }
 tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+async-backtrace = "0.2.7"
+backtrace = "0.3"
+rustc-demangle = "0.1"
