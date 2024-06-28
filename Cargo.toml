@@ -15,3 +15,10 @@ tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 async-backtrace = "0.2.7"
 backtrace = "0.3"
 rustc-demangle = "0.1"
+
+[dev-dependencies]
+criterion = { version = "0.4", features = ["html_reports"] }
+
+[[bench]]
+name = "backtrace"
+harness = false
